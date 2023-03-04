@@ -11,6 +11,7 @@ from slack_bolt.adapter.aws_lambda import SlackRequestHandler
 
 g_logger = logging.getLogger()
 
+
 # Initialize app with bot token and signing secret
 app = App(
     process_before_response=True,
